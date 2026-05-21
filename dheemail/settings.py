@@ -4,7 +4,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 SECRET_KEY = "django-insecure-change-this-key-before-production"
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['dheemail.onrender.com', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
